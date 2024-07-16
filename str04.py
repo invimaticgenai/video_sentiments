@@ -53,7 +53,7 @@ def transcribe_audio(audio_file_path):
 
         # Configure Deepgram options for audio analysis
         options = PrerecordedOptions(
-            model="nova-2",
+            model="whisper-large",
             # language='hi',
             smart_format=True,
         )
