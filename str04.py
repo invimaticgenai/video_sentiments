@@ -9,7 +9,7 @@ from moviepy.editor import VideoFileClip
 import google.generativeai as genai
 
 # Deepgram API key
-DG_KEY = "a19d2c490c98cba3e28aff052a8ad2d0e0ff9d60"
+DG_KEY = "317676cd90279f24e3abec7f20762c0ee225a58b"
 
 # Google API key
 GOOGLE_API_KEY = "AIzaSyA7zsIwxGufvhIHfc-ckxD6dIW5rL7ZNMM"
@@ -148,4 +148,5 @@ if uploaded_file is not None:
                 st.text_area("Sentiment Analysis Result", sentiment, height=200)
 else:
     st.info("Please upload a video file.")
+
 
