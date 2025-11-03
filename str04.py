@@ -12,7 +12,7 @@ import google.generativeai as genai
 DG_KEY = "317676cd90279f24e3abec7f20762c0ee225a58b"
 
 # Google API key
-GOOGLE_API_KEY = "AIzaSyA7zsIwxGufvhIHfc-ckxD6dIW5rL7ZNMM"
+GOOGLE_API_KEY = "AIzaSyCTq-CaUuKEheMOOxgkHO844hxQEhJV0n4"
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Path to save the extracted audio file and transcript JSON file
@@ -148,5 +148,6 @@ if uploaded_file is not None:
                 st.text_area("Sentiment Analysis Result", sentiment, height=200)
 else:
     st.info("Please upload a video file.")
+
 
 
